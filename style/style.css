@@ -1,0 +1,48 @@
+.Text{
+    text-align: center;
+}
+.wrapper{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px)
+{
+// property
+}
+.bg-red{
+    background-color: red;
+}
+.screen{
+    margin-top: 5px;
+    width: 200px;
+    padding: 5px;
+    background-color: #fff;
+}
+.calc-buttons{
+    padding-top: 7px;
+}
+.calc-button{
+    font: Verdana;
+    font-weight: bold;
+    font-size: 18px;
+    min-width: 50px;
+    min-height: 50px;
+    color: #fff;
+    background-color: black;
+    border: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.calc-button-row{
+    margin: 3px 0px;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
