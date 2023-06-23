@@ -60,3 +60,14 @@ button{
 .operator{
     color: #6dee0a;
 }
+
+.iframe {
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    max-width: fit-content;
+    max-height: fit-content;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000000;
+}
